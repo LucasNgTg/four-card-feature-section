@@ -1,0 +1,118 @@
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+    background-color: var(--very-light-gray);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.2rem;
+    min-height: 100vh;
+}
+
+h1, h3 {
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: var(--grayish-blue);
+    font-size: 0.94rem;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#start .text h2 {
+    font-weight: 200;
+}
+
+#start .text p {
+    margin: 1rem 0 1.5rem;
+    line-height: 1.55rem;
+}
+
+#features {
+    display: grid;
+    gap: 1.5rem;
+}
+
+#features .card {
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+
+#features .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.2rem 1.71rem 1.7rem;
+}
+
+#features .card-content .description h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+#features .card-content .description p {
+    font-size: 0.81rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+
+#features .card-content img {
+    max-width: 22%;
+    align-self: flex-end;
+}
+
+#features .supervisor {
+    border-top: 4px solid var(--cyan);
+}
+
+#features .team-builder {
+    border-top: 4px solid var(--red);
+}
+
+#features .karma {
+    border-top: 4px solid var(--orange);
+}
+
+#features .calculator {
+    border-top: 4px solid var(--blue);
+}
+
+.attribution {
+    background-color: var(--very-dark-blue);
+    text-align: center;
+    font-size: .6rem;
+    padding: 10px;
+    margin-top: 4rem;
+}
+
+.attribution span {
+    color: var(--very-light-gray);
+}
+
+.attribution a {
+    color: #6abecd;
+}

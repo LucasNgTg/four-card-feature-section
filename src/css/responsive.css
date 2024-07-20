@@ -16,7 +16,7 @@
 @media(min-width: 800px) and (orientation: landscape) {
     
     main {
-        padding: 1.5rem 3rem 3rem;
+        padding: 1rem 3rem 3rem;
     }
 
     #start .text p {
@@ -29,7 +29,7 @@
         grid-auto-columns: 1fr 1fr 1fr;
         grid-template-areas: "a b d"
                              "a c d";
-        max-width: 69rem;
+        max-width: 80rem;
     }
 
     #features .card-container {

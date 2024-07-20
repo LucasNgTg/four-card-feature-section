@@ -29,12 +29,14 @@
         grid-auto-columns: 1fr 1fr 1fr;
         grid-template-areas: "a b d"
                              "a c d";
+        max-width: 69rem;
     }
 
     #features .card-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     #features .card {
